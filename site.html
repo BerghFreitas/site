@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Bem-vindo à Loja de Macarrão</h1>
+
+  <h2>Escolha um sabor de macarrão:</h2>
+  <select id="sabor">
+    <option value="alho">Macarrão de Alho</option>
+    <option value="tomate">Macarrão de Tomate</option>
+    <option value="queijo">Macarrão de Queijo</option>
+  </select>
+
+  <h2>Escolha a quantidade de ingredientes:</h2>
+  <select id="quantidade-ingredientes">
+    <option value="6">6 Ingredientes</option>
+    <option value="10">10 Ingredientes</option>
+  </select>
+
+  <h2>Escolha os ingredientes:</h2>
+  <div id="ingredientes">
+    <!-- Ingredientes aparecerão aqui dinamicamente -->
+  </div>
+
+  <h2>Seu Pedido:</h2>
+  <p id="pedido"></p>
+  <p id="erro" style="color: red;"></p>
+
+  <button onclick="fazerPedido()">Fazer Pedido</button>
+  <script src="script.js"></script>
+</body>
+</html>
