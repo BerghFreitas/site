@@ -6,8 +6,8 @@ function alterarQuantidadeIngredientes() {
   // Limpa a lista de ingredientes ao alterar a quantidade
   document.getElementById("ingredientes").innerHTML = "";
 
-  // Exibe a lista completa de 10 ingredientes
-  for (var i = 1; i <= 10; i++) {
+  // Exibe a lista completa de 6 ingredientes
+  for (var i = 1; i <= 6; i++) {
     var label = document.createElement("label");
     label.innerHTML = `<input type="checkbox" name="ingredient" value="ingrediente${i}"> Ingrediente ${i}<br>`;
     document.getElementById("ingredientes").appendChild(label);
