@@ -17,6 +17,7 @@ function alterarQuantidadeIngredientes() {
 function fazerPedido() {
   var sabor = document.getElementById("sabor").value;
   var ingredientes = document.getElementsByName("ingredient");
+  var tipo = document.getElementById("tipo")
   var ingredientesSelecionados = [];
 
   var ingredientesSelecionadosCount = 0;
