@@ -1,7 +1,11 @@
+#conteiner {
+  background: rgb(112, 119, 51);
+}
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    background-color: yellow;
   }
   
   h1 {
@@ -17,16 +21,6 @@ body {
     padding: 5px;
   }
   
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #005F80;
-  }
+
+
   

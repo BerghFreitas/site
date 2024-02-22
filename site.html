@@ -7,37 +7,49 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Bem-vindo à Loja de Macarrão</h1>
+  <h1>Bem-vindo à Loja de Macarrão</h1>
+    <form id="conteiner">
 
-  <h2>Escolha um sabor de macarrão:</h2>
-  <select id="sabor">
-    <option value="Molho branco">Molho branco</option>
-    <option value="Molho bolonhesa"> Molho bolonhesa</option>
-    <option value="Molho 3 queijo">Molho 3 queijo</option>
-  </select>
-
-  <h2>escolha o tipo de massa:</h2>
-  <select id="tipo">
-    <option value="alho">Spaghett</option>
-    <option value="tomate">Penne</option>
-    <option value="queijo">Talharim</option>
-  </select>
-
-  <h2>Escolha a quantidade de ingredientes:</h2>
-  <select id="quantidade-ingredientes">
-    <option value="3">3 Ingredientes</option>
-  </select>
-
-  <h2>Escolha os ingredientes:</h2>
-  <div id="ingredientes">
-    <!-- Ingredientes aparecerão aqui dinamicamente -->
-  </div>
-
-  <h2>Seu Pedido:</h2>
-  <p id="pedido"></p>
-  <p id="erro" style="color: red;"></p>
-
-  <button onclick="fazerPedido()">Fazer Pedido</button>
-  <script src="script.js"></script>
+      
+        <h2>Escolha um sabor de macarrão:</h2>
+        <select id="saborMolho">
+      <option value="Molho branco">Molho branco</option>
+      <option value="Molho bolonhesa"> Molho bolonhesa</option>
+      <option value="Molho 3 queijo">Molho 3 queijo</option>
+        </select>
+      
+        <h2>escolha o tipo de massa:</h2>
+        <div id="tipoMassa">
+      <select id="tipoMassa">
+        <option value="spaghett">Spaghett</option>
+        <option value="penne">Penne</option>
+        <option value="talharim">Talharim</option>
+      </select>
+        </div>
+      
+        <h2>Escolha a quantidade de ingredientes:</h2>
+        <div id="quantIngredientes">
+      <select id="quantidadeIngredientes">
+        <option value="3">3 Ingredientes</option>
+        <option value="6">6 Ingredientes</option>
+      </select>
+        </div>
+      
+        <h2>Escolha os ingredientes:</h2>
+        <div id="ingredientes">
+      <ul type="none">
+        <li><input type="checkbox">Ovo de codorna</li>
+        <li><input type="checkbox">Linguiça</li>
+        <li><input type="checkbox">Bacon</li>
+        <li><input type="checkbox">Tomate</li>
+        <li><input type="checkbox">Milho</li>
+        <li><input type="checkbox">Presunto</li>
+      </ul>
+        </div>
+      <h3 id="outRespPedido"></h3>
+      <h3 id="outRespErro"></h3>
+        <input type="submit" name="" id="" value="fazer pedido">
+        <script src="script.js"></script>
+    </form>
 </body>
 </html>
