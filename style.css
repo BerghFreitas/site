@@ -1,11 +1,13 @@
 #conteiner {
-  background: rgb(112, 119, 51);
+  background: rgb(240, 224, 6);
+  padding: 10px;
+
 }
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
-    background-color: yellow;
+    background-color: rgb(255, 2, 2)
+    
   }
   
   h1 {
