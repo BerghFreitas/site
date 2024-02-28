@@ -1,28 +1,45 @@
-#conteiner {
-  background: rgb(240, 224, 6);
-  padding: 10px;
+.container .flex {
+
+}
+.flex {
+display: flex;
+flex-wrap: wrap;
+
+
+}
+nav a {
+  background: #ddd ;
+  margin-right: 10px;
+  float: left;
+  display: block;
+  color: rgb(80, 59, 59);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: solid 1px rgb(88, 83, 83);
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #666565;
+  color: black;
+}
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  margin-right: 22px;
+}
+
+#pizzaria {
+  background: rgb(240, 224, 6); border: 1px solid;
+  width: 98%;
+  
 
 }
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: rgb(255, 2, 2)
-    
+    background-color: rgb(255, 2, 2);
+    box-sizing: border-box;
   }
-  
-  h1 {
-    font-size: 24px;
-  }
-  
-  h2 {
-    font-size: 18px;
-  }
-  
-  select, input {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-
-
-  
