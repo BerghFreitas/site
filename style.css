@@ -1,45 +1,40 @@
-.container .flex {
+* {
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+        color: white;
+        
+    }
+.navegacao {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navegacao li {
+    display: inline;  
+}
+.navegacao a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    border: solid black 1px;
+    border-radius: 50px 50px;
+    padding: 5px;
 
 }
-.flex {
-display: flex;
-flex-wrap: wrap;
-
-
+.navegacao a:hover {
+    color: rgb(5, 5, 5);
+    background-color: rgb(211, 241, 75);
+.cabecalho h2:hover {
+    color: rgb(219, 235, 74);
 }
-nav a {
-  background: #ddd ;
-  margin-right: 10px;
-  float: left;
-  display: block;
-  color: rgb(80, 59, 59);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border: solid 1px rgb(88, 83, 83);
-  border-radius: 5px;
-}
-nav a:hover {
-  background-color: #666565;
-  color: black;
-}
-nav {
-  overflow: hidden;
-  position: fixed;
-  top: 20px;
-  right: 0;
-  margin-right: 22px;
-}
-
-#pizzaria {
-  background: rgb(240, 224, 6); border: 1px solid;
-  width: 98%;
-  
+.cabecalho h1:hover {
+    color: rgb(247, 24, 8);
 
 }
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: rgb(255, 2, 2);
-    box-sizing: border-box;
-  }

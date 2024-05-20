@@ -7,55 +7,55 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header class="container flex">
-    <h1>bergh massas</h1>
-    <nav flex>
-      <a href="inicio">inicio</a>
-      <a href="promoção">promoção</a>
-      <a href="carrinho">carrinho</a>
-    </nav>
+  <header class="cabecalho">
+    <div id="nomeEmpresa">
+      <h1>Master Massas</h1>
+      <h2>Especialista em massas</h2>
+    </div>
+  <nav >
+    <ul class="navegacao">              
+      <li><a href="item">home</a></li>
+      <li><a href="item">especiais</a></li>
+      <li><a href="item">carrinho</a></li>
+    </ul>   
+  </nav>
   </header>
-    <form id="pizzaria">      
+    <main>
+      <form>
         <h2>Escolha um sabor de macarrão:</h2>
-        <select id="saborMolho">
-          <option value="Molho branco">Molho branco</option>
-          <option value="Molho bolonhesa"> Molho bolonhesa</option>
-          <option value="Molho 3 queijo">Molho 3 queijo</option>
-        </select>
+          <select>
+            <option value="Molho branco">Molho branco</option>
+            <option value="Molho bolonhesa"> Molho bolonhesa</option>
+            <option value="Molho 3 queijo">Molho 3 queijo</option>
+          </select>
       
         <h2>escolha o tipo de massa:</h2>
-        <div id="tipoMassa">
-        <select id="tipoMassa">
-          <option value="spaghett">Spaghett</option>
-          <option value="penne">Penne</option>
-          <option value="talharim">Talharim</option>
-        </select>
-        </div>
-      
+          <select>           
+            <option value="spaghett">Spaghett</option>
+            <option value="penne">Penne</option>
+            <option value="talharim">Talharim</option>
+          </select>      
         <h2>Escolha a quantidade de ingredientes:</h2>
-        <div id="quantidadeIngredientes">
-        <select id="quantidadeIngredientes">
-          <option value="3">3 Ingredientes</option>
-          <option value="6">6 Ingredientes</option>
-        </select>
-        </div>
-      
-        <h2>Escolha os ingredientes:</h2>
-        <div id="ingredientes">
-          <ul type="none">
-            <li><input type="checkbox">Ovo de codorna</li>
-            <li><input type="checkbox">Linguiça</li>
-            <li><input type="checkbox">Bacon</li>
-            <li><input type="checkbox">Tomate</li>
-            <li><input type="checkbox">Milho</li>
-            <li><input type="checkbox">Presunto</li>
-        </ul>
-        </div>
-      
-      <h3>pedido: </h3>  <h3 id="outRespPedido"></h3>
-      <h3 id="outRespErro"></h3>
-        <input type="submit" name="" id="" value="fazer pedido">
-        <script src="..//site/script.js"></script>
-    </form>
+          <select>
+            <option value="3">3 Ingredientes</option>
+            <option value="6">6 Ingredientes</option>
+          </select>
+        <h2>ingredientes:</h2>
+          <section>
+            <ul type="none">
+              <li><input type="checkbox">Ovo de codorna</li>
+              <li><input type="checkbox">Linguiça</li>
+              <li><input type="checkbox">Bacon</li>
+              <li><input type="checkbox">Tomate</li>
+              <li><input type="checkbox">Milho</li>
+              <li><input type="checkbox">Presunto</li>
+            </ul>
+          </section>
+        <h3>pedido: </h3>  <h3 id="outRespPedido"></h3>
+        <h3 id="outRespErro"></h3>
+          <input type="submit" name="" id="" value="fazer pedido">
+          <script src="..//site/script.js"></script>
+      </form>
+    </main>
 </body>
 </html>
