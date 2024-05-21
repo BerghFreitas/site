@@ -4,11 +4,12 @@
 }
 .cabecalho {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-color: #333;
         padding: 10px 20px;
         color: white;
+    
         
     }
 .navegacao {
@@ -31,10 +32,15 @@
 .navegacao a:hover {
     color: rgb(5, 5, 5);
     background-color: rgb(211, 241, 75);
+}
 .cabecalho h2:hover {
     color: rgb(219, 235, 74);
 }
 .cabecalho h1:hover {
     color: rgb(247, 24, 8);
-
+}
+main {
+    display: flex;
+    justify-content: center;
+    
 }
