@@ -1,6 +1,13 @@
 * {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 252, 75);
+    
 }
 .cabecalho {
         display: flex;
@@ -39,8 +46,25 @@
 .cabecalho h1:hover {
     color: rgb(247, 24, 8);
 }
-main {
+
+.itens-cardapio ul {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre os itens */
+    list-style-type: none;
+    padding: 0;
+    margin: 40px;
+    background-color: rgb(255, 252, 75);
+}
+.item {
+    flex: 1 1 calc(50% - 10px); /* 50% da largura menos o gap */
+    box-sizing: border-box; /* Para garantir que o padding não afete a largura dos itens */
+    margin: 5px 0;
+    background-color: rgb(151, 151, 121);
+    border: solid black 1px;
+    text-align:left;
+    padding-top: 5px;
+    padding-left: 15px;
+    border-radius: 10px;
     
 }
