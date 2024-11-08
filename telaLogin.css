@@ -1,21 +1,45 @@
 body{
-    background-color: rgb(105, 116, 116);
+    background-color: rgb(5, 5, 5);
 
 }
-fieldset{
+ #areaLogin{
     white-space: pre;
     border-radius: 30px;
-    background-image: linear-gradient(rgb(192, 53, 34), rgb(146, 116, 59));
+    background-image: url(geometric\ gradiente.avif);
     background-repeat: no-repeat;
+    margin-top: 150px;
+    border: 1px solid rgb(204, 69, 69);
     
+}
 
-    
-}
 input{
-    border-radius: 10px;
+    border-radius: 10px
 }
-button{
+#entrarTelaLogin{
     border-radius: 5px;
     margin-top: 5px;
     
 }
+#nomeRedeSocialLogin{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 15px;
+    font-size: 40px;
+    color: white;
+}
+
+div {
+    border: 1px solid rgb(245, 82, 82);
+    margin-top: 5px;
+    border-radius: 30px;
+    padding-left: 15px;
+    color: white;
+
+}
+#esqueceuSenha {
+    display: block; 
+    text-align: center;
+    margin-top: 10px; 
+    color: white;
+}
+

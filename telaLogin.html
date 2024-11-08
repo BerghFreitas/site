@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +7,18 @@
     <link rel="stylesheet" href="telaLogin.css">
 </head>
 <body>
-<section id="areaLogin">
-    <span >
-    <fieldset>
-        <legend>Area de login</legend>
-        <label for="inserirLoguin">Login </label>
-        <input type="text" id="inserirLoguin">
-        <label for="inserirSenha">Senha </label>
-        <input type="text" id="inserirSenha">
-        <button>Entrar</button>
-        <a href="">recuperar senha</a>
-    </fieldset>
-    </span>
-</section>
-    
+
+    <div id="areaLogin">
+        <h1 id="nomeRedeSocialLogin">Egress </h1>
+        <label for="inserirLoguin">Login: </label>
+        <input type="text" id="inserirLoguin" placeholder="Inserir e-mail">
+        <label for="inserirSenha">Senha: </label>
+        <input type="text" id="inserirSenha" placeholder="Inserir senha">
+        <input type="submit" value="Entrar" id="entrarTelaLogin">
+        <a href="" id="esqueceuSenha">Esqueceu senha</a>  
+    </div>
+    <div>
+        <p>Não tem uma conta? <a href="">Cadastre-se</a></p>
+    </div>
 </body>
 </html>
