@@ -5,9 +5,12 @@ body{
  #areaLogin{
     white-space: pre;
     border-radius: 30px;
-    background-image: url(geometric\ gradiente.avif);
-    background-repeat: no-repeat;
-    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, black, transparent), url('geometric\ gradiente.avif');
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
     border: 1px solid rgb(204, 69, 69);
     
 }
