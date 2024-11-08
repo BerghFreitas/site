@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(105, 116, 116);
+
+}
+fieldset{
+    white-space: pre;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(192, 53, 34), rgb(146, 116, 59));
+    background-repeat: no-repeat;
+    
+
+    
+}
+input{
+    border-radius: 10px;
+}
+button{
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
