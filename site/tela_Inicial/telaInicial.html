@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina inicial</title>
+    <link rel="stylesheet" href="telaInicial.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <h1>Dirty Talk</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="">Perfil</a></li>
+      <li><a href="">configuracao</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="pensamentos">
+  <article class="pensamentos">
+    <header>
+      <h3>nome do autor</h3>
+      <p class="data">data do pensamento</p>
+    </header>
+    <p class="conteudo">Texto do pensamento</p>
+    <footer>
+      <button class="curtir">Curtir</button>
+      <button class="comentar">Comentar</button>
+    </footer>
+  </article>
+</section>
+
+<section>
+  <form>
+    <label for="ordenar">Ordenar por:</label>
+    <select id="ordenar" name="ordenar">
+        <option value="curtidos">Mais Curtidos</option>
+        <option value="novos">Novos</option>
+        <option value="visualizados">Mais Visualizados</option>
+    </select>
+</form>
+</section>
+
+<section class="timeline">
+  <h2 >contos recentes</h2>
+  <article  class="contos">
+    <header>
+      <h3>Titulo do conto</h3>
+      <p class="autor">Autor do conto</p>
+    </header>
+    <p class="resumo">Resumo do conto - um paragrafo...</p>
+    <footer>
+      <button class="curtir">Curtir</button>
+      <button class="comentar">Comentar</button>
+      <button class="gorjeta">Gorjeta</button>
+      <p class="visualizacoes">Visualizações 123</p>
+      <a href="/site/tela_Inicial/contoCompleto.html" class="continuar-lendo">Continuar lendo</a>
+    </footer>
+  </article>
+</section>
+
+<footer id="publicacao">
+  <button id="publicar-conto"><strong>+</strong></button>
+</footer>
+</body>
+</html>
