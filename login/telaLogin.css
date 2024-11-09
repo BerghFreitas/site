@@ -2,7 +2,7 @@ body{
     background-color: rgb(5, 5, 5);
 
 }
- #areaLogin{
+#areaLogin{
     white-space: pre;
     border-radius: 30px;
     width: 100%;
@@ -10,8 +10,9 @@ body{
     background: linear-gradient(to right, black, transparent), url('geometric\ gradiente.avif');
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
+    margin-top: 50px;
     border: 1px solid rgb(204, 69, 69);
+    padding-right: 0px;
     
 }
 
@@ -29,13 +30,20 @@ input{
     text-shadow: 2px 2px 15px;
     font-size: 40px;
     color: white;
+    margin-bottom: 0px;
 }
-
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 15px;
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
 div {
     border: 1px solid rgb(245, 82, 82);
     margin-top: 5px;
     border-radius: 30px;
-    padding-left: 15px;
     color: white;
 
 }
@@ -44,5 +52,8 @@ div {
     text-align: center;
     margin-top: 10px; 
     color: white;
+}
+p{
+    margin-left: 15px;
 }
 
