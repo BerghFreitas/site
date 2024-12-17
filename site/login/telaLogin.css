@@ -13,15 +13,20 @@ body{
     margin-top: 50px;
     border: 1px solid rgb(204, 69, 69);
     padding-right: 0px;
+    margin: 50px auto; /* Centraliza horizontalmente */
+    max-width: 400px; /* Limita a largura */
     
 }
 
 input{
-    border-radius: 10px
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
 }
 #entrarTelaLogin{
     border-radius: 5px;
     margin-top: 5px;
+    
     
 }
 #nomeRedeSocialLogin{
@@ -40,12 +45,12 @@ h2{
     color: white;
     margin: 0px;
 }
-div {
+
+.estiloDiv {
     border: 1px solid rgb(245, 82, 82);
     margin-top: 5px;
     border-radius: 30px;
     color: white;
-
 }
 #esqueceuSenha {
     display: block; 
@@ -56,4 +61,31 @@ div {
 p{
     margin-left: 15px;
 }
-
+#entrarTelaLogin:hover {
+    background-color: rgba(204, 69, 69, 0.7);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    transform: scale(1.05); /* Dá um efeito de crescimento suave */
+}
+#esqueceuSenha:hover {
+    text-decoration: underline;
+    color: rgb(204, 69, 69);
+    transition: color 0.3s ease;
+}
+@media (max-width: 480px) {
+    #areaLogin {
+        padding: 10px;
+        margin: 20px auto;
+    }
+    h2, #nomeRedeSocialLogin {
+        font-size: 18px;
+    }
+    input {
+        font-size: 14px;
+    }
+    #entrarTelaLogin {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
